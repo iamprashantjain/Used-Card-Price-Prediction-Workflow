@@ -1,8 +1,6 @@
 # Used Card Price Prediction Workflow
 
-## Stages of the MLOps Project
-
-**Pre-Preparation**
+**Complete Project Flow**
 
 - Clone from Common folder structure
 - Run init_setup.sh file
@@ -11,9 +9,11 @@
 - Perform Cleaning, EDA, Feature Engineering in jupyterfile
 - Perform pre-processing & transformation pipeline (check sample experiments.ipynb file)
 - Build model on that transformed data
+- Once all the experiments are completed, we know what type of preprocessing is required for best results so we write modular codes for that inside src folder
+- Use exception & logger for exception handling & logging the flow to debug
 
 
-
+## Stages of the MLOps Project
 
 1. **Build: Model Development**
    - **Tools**: Git, GitHub, Python
