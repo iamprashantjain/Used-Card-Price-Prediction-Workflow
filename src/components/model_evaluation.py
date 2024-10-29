@@ -1,24 +1,26 @@
-import pandas as pd
-import numpy as np
-from src.logger.logging import logging
-from src.exception import customexception
-
-
 import os
 import sys
-from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error
+from urllib.parse import urlparse
+import mlflow
+import numpy as np
+import pickle
+import pandas as pd
+from src.utils import utils
+from src.logger.logging import logging
+from src.exception import customexception
 from dataclasses import dataclass
-from pathlib import Path
+
 
 @dataclass
-class DataIngestionConfig:
+class ModelEvaluationConfig:
     pass
 
-class DataIngestion:
+class ModelEvaluation:
     def __init__(self):
         pass
     
-    def initiate_data_ingestion(self):
+    def initiate_model_evaluation(self):
         try:
             pass
         except Exception as e:

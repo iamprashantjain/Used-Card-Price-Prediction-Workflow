@@ -12,6 +12,16 @@
 - Once all the experiments are completed, we know what type of preprocessing is required for best results so we write modular codes for that inside src folder
 - Use exception & logger for exception handling & logging the flow to debug
 
+- There are 2 pipelines of any ML Project:
+   1. Training pipeline: data ingestion, data transformation, model trainer, model evaluation
+   2. Prediction pipeline: data ingestion, prediction: single or bulk
+
+- Now, Write similar code strucutre for src components like data ingestion, data transformation, model evaluation, model trainer
+- Write common codes inside src.utils
+
+
+
+
 
 ## Stages of the MLOps Project
 
