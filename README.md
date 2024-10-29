@@ -66,6 +66,15 @@ if __name__ == "__main__":
 - pass the transformed data to model for prediction and return the predicion
 
 
+- **To check predictions we can either test it on postman or create a flask app**
+
+- **ML Flow Integration**
+- mlflow==2.2.2
+- https://mlflow.org/docs/latest/getting-started/intro-quickstart/index.html
+- 
+
+
+
 ## Stages of the MLOps Project
 
 1. **Build: Model Development**
