@@ -71,7 +71,9 @@ if __name__ == "__main__":
 - **ML Flow Integration**
 - mlflow==2.2.2
 - https://mlflow.org/docs/latest/getting-started/intro-quickstart/index.html
-- 
+- we use mlflow for experiments tracking we are performing inside pipelines training & prediction pipelines
+- model management - handling different versions of models - model registry (we can also use dagshub or github)
+- reproducability
 
 
 
