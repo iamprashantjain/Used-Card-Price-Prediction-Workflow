@@ -45,10 +45,25 @@ if __name__ == "__main__":
 
 
 - **SRC - pipeline - training_pipeline.py**
-- 
+- write code to perform each component step by step ingestion, transformation, model_trainer
+- prediction_pipeline train multiple models and select the best model based on r2 score
 
 
+- **SRC - pipeline - prediction_pipeline.py**
 
+- workflow of prediction pipeline
+- get data
+   1. bulk data
+   2. single row data
+   3. get data from web_app
+
+- preprocess data for preprocessing & transformation
+- pass transformed data to model
+- evaluate the predictions
+
+- load preprocessor.pkl & model.pkl files using load_object function written inside utils.py file
+- transform the data using preprocessor
+- pass the transformed data to model for prediction and return the predicion
 
 
 ## Stages of the MLOps Project
