@@ -75,6 +75,13 @@ if __name__ == "__main__":
 - model management - handling different versions of models - model registry (we can also use dagshub or github)
 - reproducability
 
+- to track this experiment using mlflow we need to start the mlflow server
+- and log params & metrics
+- it will create mlruns inside which we will find each run logs about what value we provided as input for a, b & ops & what was the result
+- thats experiment tracking
+- instead of checking these experiments inside folders we can check it on UI also: "mlflow ui"
+
+![alt text](2.png) ![alt text](1.png)
 
 
 ## Stages of the MLOps Project
