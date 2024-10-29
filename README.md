@@ -37,6 +37,15 @@ if __name__ == "__main__":
 
 
 - **SRC - data_transformation.py**
+- write code to save output file, write code for data preprocessing & then apply transformation, concat input & target variable for both train & test and return train_arr & test_arr to be used in model trainer component
+
+
+- **SRC - model_trainer.py**
+- write code to save model output file, perform training & select best model
+
+
+- **SRC - pipeline - training_pipeline.py**
+- 
 
 
 
