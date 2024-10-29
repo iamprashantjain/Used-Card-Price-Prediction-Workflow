@@ -3,6 +3,7 @@
 **Complete Project Flow**
 
 - Clone from Common folder structure
+- Write setup.py code
 - Run init_setup.sh file
 - Activate venv
 - Download Experiment Data: https://www.kaggle.com/competitions/playground-series-s3e8/data
@@ -12,12 +13,30 @@
 - Once all the experiments are completed, we know what type of preprocessing is required for best results so we write modular codes for that inside src folder
 - Use exception & logger for exception handling & logging the flow to debug
 
+
+![alt text](image.png)
+
 - There are 2 pipelines of any ML Project:
    1. Training pipeline: data ingestion, data transformation, model trainer, model evaluation
    2. Prediction pipeline: data ingestion, prediction: single or bulk
 
 - Now, Write similar code strucutre for src components like data ingestion, data transformation, model evaluation, model trainer
 - Write common codes inside src.utils
+- ML Project Template - <template_ml_project.zip>
+
+
+- **SRC - data_ingestion.py**
+- write code to read data from source, save raw data file, perform train test split, save train test data files & return train & test data path
+- create object of the class & test if its working
+
+if __name__ == "__main__":
+    obj = DataIngestion()
+    obj.initiate_data_ingestion()
+
+- check pip list if your project is showing as package
+
+
+- **SRC - data_transformation.py**
 
 
 
