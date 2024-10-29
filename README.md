@@ -9,6 +9,8 @@
 - Activate venv
 - Download Experiment Data: https://www.kaggle.com/competitions/playground-series-s3e8/data
 - Perform Cleaning, EDA, Feature Engineering in jupyterfile
+- Perform pre-processing & transformation pipeline (check sample experiments.ipynb file)
+- Build model on that transformed data
 
 
 
