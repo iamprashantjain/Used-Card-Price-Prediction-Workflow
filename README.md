@@ -7,10 +7,8 @@
 - Clone from Common folder structure
 - Run init_setup.sh file
 - Activate venv
-- Download Data: https://www.kaggle.com/competitions/playground-series-s3e8/data
+- Download Experiment Data: https://www.kaggle.com/competitions/playground-series-s3e8/data
 - Perform Cleaning, EDA, Feature Engineering in jupyterfile
-
-
 
 
 
